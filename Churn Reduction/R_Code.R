@@ -10,7 +10,7 @@ install.packages("randomForest")
 install.packages("inTrees")
 pacman::p_load(corrgram,DataCombine,C50,gridExtra,ggplot2,caret,randomForest,inTrees,DMwR)
 rm(list = ls())
-setwd("D:/Edwisor/Project(Churn Reduction)")
+setwd(path)
 getwd()
 ##################################Train Data####################################################
 TrainData = read.csv("Train_data.csv")
